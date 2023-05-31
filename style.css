@@ -1,0 +1,115 @@
+/* Set styles for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Set styles for the sections */
+  section {
+    margin: 40px 0;
+    padding: 20px;
+  }
+  
+  /* Set styles for the screenshots */
+  .screenshot {
+    margin-bottom: 20px;
+  }
+  
+  /* Set styles for the contact information */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Set global styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Custom styles for the project */
+  h1, h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .screenshot img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  #visualization {
+    background-color: #f7f7f7;
+  }
+  
+  #visualization p {
+    font-style: italic;
+  }
+  
+  #contact ul {
+    padding-left: 20px;
+  }
+  
+  /* Additional styling for improved aesthetics */
+  body {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    font-size: 16px;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    .container {
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    ul {
+      font-size: 14px;
+    }
+  }
+  
